@@ -7,6 +7,7 @@ class PostsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @posts }
+      format.js
     end
   end
 
@@ -14,6 +15,7 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
+    @comments = @post.comments.page(params[:page]).per_page(3)
 
     respond_to do |format|
       format.html # show.html.erb
