@@ -1,9 +1,7 @@
-# My New Blog!
+# Ivan's Blog
 
-I've got a lot to say, and now I have a place to say it!!!!!
+I was given the following instructions for how to improve an existing blog by one of my instructors in Code Fellows:
 
-Read all my amazing posts!!!!! You can load them into the app with: `rake load_blog:load_shit`
+Modify the app to improve performance of page loads, without letting the user experience suffer (eg: one comment per page is fast, but clicking through them all is annoying).
 
-Since I know you want to read them all, I designed my page to show EVERYTHING on the front page of the site!!!!!
-
-I know it is a little slow (but totes worth it!!!!)... _Do you know how I can make it faster?_
+This is my solution to those instructions.
