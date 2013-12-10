@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'will_paginate'
 #gem 'sqlite3'
 
 # Gems used only for assets and not required
@@ -30,6 +31,8 @@ group :development, :test do
   gem 'pry-debugger'
   gem 'hirb'
 end
+
+gem 'rack-mini-profiler'
 
 group :test do
   gem 'test-unit'
